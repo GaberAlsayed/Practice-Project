@@ -16,26 +16,7 @@ Takeshi Obata, the artist of Death Note, said that he had "no trouble" designing
 <p>Shusuke Kaneko, director of the film, intended for Light to appear sympathetic at the beginning of the film; when Light first gains the Death Note, Kaneko "was careful" to have Light react in a manner "as you and I would". Kaneko changed the story involving Light gaining his first notebook as he felt that the audience "would have a hard time sympathizing" with Light if the scene remained the same as it was in the manga. Kaneko added that as he portrayed Light as "being enthralled" as he "becomes more cruel" to make the audience members feel that they could "do the terrible things he does" even if the members do not sympathize with Light.[6]
   </p>
 </div>
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-module.exports = function(attributes) {
-	// setting default attributes
-	if (typeof attributes === "string") {
-		var href = attributes;
-		attributes = {
-			href: href
-		};
-	}
-	if (!attributes.rel) {
-		attributes.rel = "stylesheet"
-	}
-	// appending the stylesheet... just plain dom manipulations
-	var styleSheet = document.createElement("link");
-	for (var key in attributes) {
-		styleSheet.attr(key, attributes[key]);
-	}
-	var head = document.getElementsByTagName("head")[0];
-	head.appendChild(styleSheet);
-};
+
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 body {
   
