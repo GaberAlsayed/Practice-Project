@@ -16,6 +16,7 @@ Takeshi Obata, the artist of Death Note, said that he had "no trouble" designing
 <p>Shusuke Kaneko, director of the film, intended for Light to appear sympathetic at the beginning of the film; when Light first gains the Death Note, Kaneko "was careful" to have Light react in a manner "as you and I would". Kaneko changed the story involving Light gaining his first notebook as he felt that the audience "would have a hard time sympathizing" with Light if the scene remained the same as it was in the manga. Kaneko added that as he portrayed Light as "being enthralled" as he "becomes more cruel" to make the audience members feel that they could "do the terrible things he does" even if the members do not sympathize with Light.[6]
   </p>
 </div>
+CSS
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 body {
   
